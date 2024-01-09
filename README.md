@@ -53,3 +53,5 @@
 <p>When user is searching for events in a city</p>
 <p>Then show number of upcoming events</p>
 
+<p>Using Serverless Functions:</p>
+<p>I will be using serverless functions to provide an Oauth2 token to my users. This will ensure privacy and security between my React Application and Google Calendars API.</p>
