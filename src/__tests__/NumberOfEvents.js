@@ -1,3 +1,9 @@
+/* eslint-disable testing-library/no-render-in-setup */
+/* eslint-disable testing-library/prefer-presence-queries */
+/* eslint-disable testing-library/prefer-screen-queries */
+/* eslint-disable testing-library/render-result-naming-convention */
+// src/__tests__/NumberOfEvents.test.js
+
 import { render } from '@testing-library/react';
 import { getEvents } from '../api';
 import NumberOfEvents from '../components/NumberOfEvents';

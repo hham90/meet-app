@@ -1,3 +1,10 @@
+/* eslint-disable testing-library/no-node-access */
+/* eslint-disable testing-library/no-render-in-setup */
+/* eslint-disable testing-library/prefer-presence-queries */
+/* eslint-disable testing-library/prefer-screen-queries */
+/* eslint-disable testing-library/render-result-naming-convention */
+// src/__tests__/Event.test.js
+
 import { render } from '@testing-library/react';
 import mockData from '../mock-data';
 import Event from '../components/Event';
