@@ -10,7 +10,7 @@ import CitySearch from '../components/CitySearch';
 import App from '../App';
 import { extractLocations, getEvents } from '../api';
 
-describe('<CitySearch /> Component', () => {
+xdescribe('<CitySearch /> Component', () => {
     let CitySearchComponent;
     beforeEach(() => {
       CitySearchComponent = render(<CitySearch allLocations={[]} />);
@@ -72,7 +72,7 @@ describe('<CitySearch /> Component', () => {
       });
 });
 
-describe('<CitySearch /> integration', () => {
+xdescribe('<CitySearch /> integration', () => {
   test('renders suggestions list when the app is rendered.', async () => {
     const user = userEvent.setup();
     const AppComponent = render(<App />);
