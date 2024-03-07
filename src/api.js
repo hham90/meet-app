@@ -43,6 +43,7 @@ const getToken = async (code) => {
     'https://pw3zxvu1ec.execute-api.us-east-1.amazonaws.com/dev/api/token' + '/' + encodeCode
   );
   const { access_token } = await response.json();
+  console.log({access_token})
   access_token && localStorage.setItem("access_token", access_token);
 
   return access_token;
@@ -76,6 +77,8 @@ export const getEvents = async () => {
 export const getAccessToken = async () => {
   const accessToken = localStorage.getItem('access_token');
   const tokenCheck = accessToken && (await checkToken(accessToken));
+  console.log({accessToken})
+  console.log({tokenCheck})
 
   if (!accessToken || tokenCheck.error) {
     await localStorage.removeItem("access_token");
