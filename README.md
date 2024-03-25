@@ -1,3 +1,36 @@
+# Meet App
+
+## description
+Meet App is a PWA built using React implementing the TDD technique. The application calls the Google Calendar API to fetch events.
+
+## installation
+
+1. Clone repository:
+```
+https://github.com/hham90/meet-app
+```
+2. Navigate to project directory:
+```
+cd meet-app
+```
+3. Install dependencies:
+```
+npm install
+```
+
+## usage
+
+To start the application, run the following command:
+```
+npm start
+```
+
+## user stories and features
+
+<p>Scenario 1: When user hasn’t searched for a specific city, show upcoming events from all cities.<p>
+<p>Given the main page has been opened</p>
+<p>when user does not search for any city</p>
+<p>then a list of all available events for all the cities is shown</p>
 <h3>Feature 2: Show/Hide Event Details</h3>
 <br>
 <p>Scenario 1: An event element is collapsed by default</p>
